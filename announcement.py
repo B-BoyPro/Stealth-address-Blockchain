@@ -24,17 +24,3 @@ class Announcement:
 
 	def to_string(self):
 		return json.dumps(self.chain,indent=4, sort_keys=True, default=str)
-
-
-# a = Announcement()
-
-# data = {
-#         "sender": "sender",
-#         "recipient": "stealth_address_json",
-#         "amount": "amount",
-#         "ephemeral_pubkey": "stealth_address_json[ephemeral_pubkey]",
-#         "view_tag": "stealth_address_json[view_tag]"
-#     }
-# a.add_announcement(data)
-# print(a.chain)
-# a.save_announcement()
