@@ -58,14 +58,3 @@ class Blockchain:
             )
         x = json.dumps(x,indent=4, sort_keys=True, default=str)
         return x
-
-
-        
-# g = Blockchain()
-# print(g.chain[0].hash)
-# g.add_block("Ciao come va ti voglio bene")
-# print((g.to_string()))
-# blockchain_json_save(g)
-# prova = blockchain_json_load()
-
-# print(prova)
